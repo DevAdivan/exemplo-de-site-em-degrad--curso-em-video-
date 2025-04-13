@@ -1,0 +1,33 @@
+@charset "UTF8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+body{
+    
+        background-image: linear-gradient(to right,#EBCB42,#EB6642); /* como fazer degradê  pode ser to right,to left,to to botton ou em graus */
+}
+
+
+
+main{
+    border-radius: 10px;  /* arredodamento das bordas em 10px */
+    background-color: white; /* cor do fundo de main */
+    box-shadow:  5px 5px 15px #55201198 ; /* sombra da lateral direito e inferior */ 
+    width: 600px; /* tamanho da caixa box <main> em 600px */
+    padding: 10px ; /* espaçamento entre a letra e caixa box <main> em 10px */
+    margin: auto;/* caixa box <main> se auto centraliza ao se movimentar a tela*/
+}
+h1{
+    text-align: center;
+    color:#EB8442 ;
+    text-shadow: 1px 1px 2px #ce6e33;
+
+}
+h2{
+    color: #EB6642;
+}
+p {
+    text-align: justify;
+}
